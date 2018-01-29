@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #canvas {
+        display: block;
+        margin: 20px auto;
+    }
+    </style>
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+    <audio src="audio/arrow.wav" id="arrow"></audio>
+    <audio src="audio/bao.wav" id="bao"></audio>
+    <audio src="audio/jizhong.wav" id="jizhong"></audio>
+    <audio src="audio/bgm.mp3" id="bgm" autoplay loop></audio>
+    <script type="text/javascript" src="js/underscore.js"></script>
+    <script type="text/javascript" src="js/Game.js"></script>
+    <script type="text/javascript" src="js/User.js"></script>
+    <script type="text/javascript" src="js/Arrow.js"></script>
+    <script type="text/javascript" src="js/Enemy.js"></script>
+    <script type="text/javascript" src="js/power.js"></script>
+    <script type="text/javascript" src="js/Blood.js"></script>
+    <script type="text/javascript" src="js/baotou.js"></script>
+    <script type="text/javascript" src="js/Scene.js"></script>
+    <script type="text/javascript">
+    var game = new Game();
+    </script>
+</body>
+
+</html>
